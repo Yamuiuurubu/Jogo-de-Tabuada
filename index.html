@@ -7,14 +7,15 @@
     <link rel="icon" type="image/x-icon" href="src/icons/icon-192x192.png">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
 <body>
     <div>
         <p id="pergunta">Quanto é x1 x x2?</p>
         <p id="mensagem"></p>
 
-        <div class="mandar">
-            <input id="resposta", type="text">
+        <div id="mandar">
+            <input id="resposta", type="text", inputmode="numeric", pattern="[0-9]*">
             <button id="enviar" onclick="enviar()">></button>
         </div>
 
