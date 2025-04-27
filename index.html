@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="src/icons/icon-192x192.png">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=no">
 </head>
 <body>
     <div>
@@ -15,7 +15,7 @@
         <p id="mensagem"></p>
 
         <div id="mandar">
-            <input id="resposta", type="text", inputmode="numeric", pattern="[0-9]*">
+            <input id="resposta" type="tel" inputmode="numeric" pattern="[0-9]*" autocomplete="off">
             <button id="enviar" onclick="enviar()">></button>
         </div>
 

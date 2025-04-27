@@ -22,6 +22,7 @@ function enviar() {
 
     if(resposta == resposta_certa) {
         respostaInput.value = ''
+        respostaInput.focus()
         return gerar()
     } else {
         console.log("errou")
