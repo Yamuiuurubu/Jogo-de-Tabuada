@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #141414;
+    background-color: #000000;
     color: white;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@ body {
 }
 
 #resposta {
-    background-color: #303030;
+    background-color: #111111;
     color: aliceblue;
     border: none;
     font-size: x-large;
@@ -41,7 +41,7 @@ body {
     height: 60px;
     font-size: xx-large;
     color: #3d3d3d;
-    background-color: #d8d8d8;
+    background-color: #a3a3a3;
     border-radius: 100%;
     cursor: pointer;
 }
